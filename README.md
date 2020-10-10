@@ -1,6 +1,8 @@
 # Learning 3D Dynamic Scene Representations for Robot Manipulation
-### [project](https://dsr-net.cs.columbia.edu/) | [paper(TBD)]() | [videos(TBD)]()
+### [project](https://dsr-net.cs.columbia.edu/)
+## Overview
 This repo contains the PyTorch implementation for paper Learning 3D Dynamic Scene Representations for Robot Manipulation.
+![teaser](figures/teaser.jpg)
 
 ## Content
 
@@ -16,26 +18,25 @@ The code is built with Python 3.6. Libraries are listed in [requirements.txt](re
 ## Data Preparation
 
 ### Download Testing Data
-The following two testing datasets can be download in [link(TBD)]().
-- Sim: 400 sequences, generated in pybullet.
-- Real: 150 sequences, with full annotations.
+The following two testing datasets can be download.
+- [Sim](https://dsr-net.cs.columbia.edu/download/data/sim_test_data.zip): 400 sequences, generated in pybullet. 
+- [Real](https://dsr-net.cs.columbia.edu/download/data/real_test_data.zip): 150 sequences, with full annotations.
 
 ### Generate Training Data
-
-Download object mesh from [link(TBD)]().
+Download object mesh: [shapenet](https://dsr-net.cs.columbia.edu/download/object_models/shapenet.zip) and [ycb](https://dsr-net.cs.columbia.edu/download/object_models/ycb.zip).
 
 To generate data in simulation, one can run
 ```
-python data_generation.py --data_path [path to data] --train_num [number of training sequences] --train_num [number of testing sequences] --object_type [type of objects]
+python data_generation.py --data_path [path to data] --train_num [number of training sequences] --test_num [number of testing sequences] --object_type [type of objects]
 ```
 Where the `object_type` can be `cube`, `shpenet`, or `ycb`.
 The training data in the paper can be generated with the followint scripts:
 ```
 # cube
-python data_generation.py --data_path data/cube_train --train_num 4000 --train_num 400 --object_type cube
+python data_generation.py --data_path data/cube_train --train_num 4000 --test_num 400 --object_type cube
 
 # shapenet
-python data_generation.py --data_path data/shapenet_train --train_num 4000 --train_num 400 --object_type shapenet
+python data_generation.py --data_path data/shapenet_train --train_num 4000 --test_num 400 --object_type shapenet
 ```
 
 ## Pretrained Models
@@ -100,6 +101,6 @@ python train.py --exp dsr_stage3 --resume [path to stage2] --data_path [path to 
 ```
 
 ### Training of Baselines
-For `nowarp` and `gtwarp`, use the same scripts as DSR-NEt with corresponding `model_type`.
+- `nowarp` and `gtwarp`. Use the same scripts as DSR-Net with corresponding `model_type`.
 
-For `single` and `3dflow`, only two stages is used (one for cube, one for shapenet) and `seq_len` always choose `1`.
+- `single` and `3dflow`. Two-stage training: (1) single step on cube dataset; (2) single step on Shapenet dataset.
