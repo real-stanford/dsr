@@ -1,0 +1,82 @@
+{
+    "bottle": {
+        "category_id": "02876657",
+        "object_id": [
+            "6b8b2cb01c376064c8724d5673a063a6",
+            "547fa0085800c5c3846564a8a219239b",
+            "91235f7d65aec958ca972daa503b3095",
+            "9dff3d09b297cdd930612f5c0ef21eb8",
+            "d45bf1487b41d2f630612f5c0ef21eb8",
+            "898101350771ff942ae40d06128938a1",
+            "3b26c9021d9e31a7ad8912880b776dcf",
+            "ed55f39e04668bf9837048966ef3fcb9",
+            "74690ddde9c0182696c2e7960a15c619",
+            "e4ada697d05ac7acf9907e8bdd53291e",
+            "fdc47f5f8dff184830eaaf40a8a562c1",
+            "ad33ed7da4ef1b1cca18d703b8006093",
+            "4d4fc73864844dad1ceb7b8cc3792fd",
+            "42f85b0eb5e9fd508f9c4ecc067067e9"
+        ],
+        "global_scaling": [0.7, 0.8],
+        "large_scaling": [1.1, 1.2]
+    },
+    "can": {
+        "category_id": "02946921",
+        "object_id": [
+            "f4ad0b7f82c36051f51f77a6d7299806",
+            "a70947df1f1490c2a81ec39fd9664e9b",
+            "b6c4d78363d965617cb2a55fa21392b7",
+            "91a524cc9c9be4872999f92861cdea7a",
+            "96387095255f7080b7886d94372e3c76",
+            "9b1f0ddd23357e01a81ec39fd9664e9b"
+        ],
+        "global_scaling": [0.7, 0.9],
+        "large_scaling": [1.1, 1.2]
+    },
+    "mug": {
+        "category_id": "03797390",
+        "object_id": [
+            "599e604a8265cc0a98765d8aa3638e70",
+            "b46e89995f4f9cc5161e440f04bd2a2",
+            "9c930a8a3411f069e7f67f334aa9295c",
+            "2d10421716b16580e45ef4135c266a12",
+            "71ca4fc9c8c29fa8d5abaf84513415a2"
+        ],
+        "global_scaling": [0.8, 0.9],
+        "large_scaling": [1.1, 1.2]
+    },
+    "sofa": {
+        "category_id": "04256520",
+        "object_id": [
+            "930873705bff9098e6e46d06d31ee634",
+            "f094521e8579917eea65c47b660136e7",
+            "adc4a9767d1c7bae8522c33a9d3f5757",
+            "d0e419a11fd8f4bce589b08489d157d",
+            "9aef63feacf65dd9cc3e9831f31c9164",
+            "d55d14f87d65faa84ccf9d6d546b307f",
+            "526c4f841f777635b5b328c62af5142",
+            "65fce4b727c5df50e5f5c582d1bee164",
+            "7c68894c83afb0118e8dcbd53cc631ab"
+        ],
+        "global_scaling": [0.4, 0.7],
+        "large_scaling": [1.0, 1.2]
+    },
+    "phone": {
+        "category_id": "04401088",
+        "object_id": [
+            "611afaaa1671ac8cc56f78d9daf213b",
+            "b8555009f82af5da8c3645155d02fccc",
+            "2725909a09e1a7961df58f4da76e254b",
+            "9d021614c39c53dabee972a203aaf80",
+            "fe34b663c44baf622ad536a59974757f",
+            "2bb42eb0676116d41580700c4211a379",
+            "9efabcf2ff8a4be9a59562d67b11f3d",
+            "b9f67617cf320c20de4349e5bfa4fedb",
+            "78855e0d8d27f00b42e82e1724e35ca",
+            "401d5604ebfb4b43a7d4c094203303b1"
+        ],
+        "global_scaling": [0.7, 1.0],
+        "large_scaling": [1.0, 1.1]
+        
+    }
+}
