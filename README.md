@@ -1,5 +1,16 @@
 # Learning 3D Dynamic Scene Representations for Robot Manipulation
-### [project](https://dsr-net.cs.columbia.edu/)
+
+[Zhenjia Xu](http://www.zhenjiaxu.com/)<sup>1\*</sup>,
+[Zhanpeng He](https://zhanpenghe.github.io/)<sup>1\*</sup>,
+[Jiajun Wu](https://jiajunwu.com/)<sup>2</sup>,
+[Shuran Song](https://www.cs.columbia.edu/~shurans/)<sup>1</sup>
+<br>
+<sup>1</sup>Columbia University, <sup>2</sup>Stanford University
+<br>
+[CoRL 2020](https://www.robot-learning.org/)
+
+### [Project Page](https://dsr-net.cs.columbia.edu/) | [Video](https://youtu.be/GQjYG3nQJ80) | [arXiv](https://arxiv.org/abs/2011.01968)
+
 ## Overview
 This repo contains the PyTorch implementation for paper Learning 3D Dynamic Scene Representations for Robot Manipulation.
 ![teaser](figures/teaser.jpg)
