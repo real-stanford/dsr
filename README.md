@@ -12,7 +12,7 @@
 ### [Project Page](https://dsr-net.cs.columbia.edu/) | [Video](https://youtu.be/GQjYG3nQJ80) | [arXiv](https://arxiv.org/abs/2011.01968)
 
 ## Overview
-This repo contains the PyTorch implementation for paper Learning 3D Dynamic Scene Representations for Robot Manipulation.
+This repo contains the PyTorch implementation for paper "Learning 3D Dynamic Scene Representations for Robot Manipulation".
 ![teaser](figures/teaser.jpg)
 
 ## Content
@@ -21,6 +21,7 @@ This repo contains the PyTorch implementation for paper Learning 3D Dynamic Scen
 - [Data Preparation](#data-preparation)
 - [Pretrained Models](#pretrained-models)
 - [Training](#training)
+- [BibTeX](#bibtex)
 
 ## Prerequisites
 
@@ -115,3 +116,13 @@ python train.py --exp dsr_stage3 --resume [path to stage2] --data_path [path to 
 - `nowarp` and `gtwarp`. Use the same scripts as DSR-Net with corresponding `model_type`.
 
 - `single` and `3dflow`. Two-stage training: (1) single step on cube dataset; (2) single step on Shapenet dataset.
+
+## BibTeX
+```
+@inproceedings{xu2020learning,
+    title={Learning 3D Dynamic Scene Representations for Robot Manipulation},
+    author={Xu, Zhenjia and He, Zhanpeng and Wu, Jiajun and Song, Shuran},
+    booktitle={Conference on Robotic Learning (CoRL)},
+    year={2020}
+}
+```
