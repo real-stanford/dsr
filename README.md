@@ -126,3 +126,12 @@ python train.py --exp dsr_stage3 --resume [path to stage2] --data_path [path to 
     year={2020}
 }
 ```
+
+## License
+
+This repository is released under the MIT license. See [LICENSE](LICENSE) for additional details.
+
+
+## Acknowledgement
+
+- The code for TSDF fusion(fusion.py) is modified from [tsdf-fusion](https://github.com/andyzeng/tsdf-fusion).
