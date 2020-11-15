@@ -21,7 +21,6 @@ This repo contains the PyTorch implementation for paper "Learning 3D Dynamic Sce
 - [Data Preparation](#data-preparation)
 - [Pretrained Models](#pretrained-models)
 - [Training](#training)
-- [BibTeX](#bibtex)
 
 ## Prerequisites
 
@@ -135,3 +134,4 @@ This repository is released under the MIT license. See [LICENSE](LICENSE) for ad
 ## Acknowledgement
 
 - The code for TSDF fusion(fusion.py) is modified from [tsdf-fusion](https://github.com/andyzeng/tsdf-fusion).
+- The code for binvox processing is modified from [binvox-rw-py](https://github.com/dimatura/binvox-rw-py).
