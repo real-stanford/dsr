@@ -121,7 +121,7 @@ python train.py --exp dsr_stage3 --resume [path to stage2] --data_path [path to 
 @inproceedings{xu2020learning,
     title={Learning 3D Dynamic Scene Representations for Robot Manipulation},
     author={Xu, Zhenjia and He, Zhanpeng and Wu, Jiajun and Song, Shuran},
-    booktitle={Conference on Robotic Learning (CoRL)},
+    booktitle={Conference on Robot Learning (CoRL)},
     year={2020}
 }
 ```
